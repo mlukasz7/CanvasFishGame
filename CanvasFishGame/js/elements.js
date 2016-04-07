@@ -34,12 +34,9 @@ function spacecraftDraw(x,y) {
   ctx.fill();
   // add eye
   ctx.beginPath();
-  ctx.arc(x+10, y+5, radius, 0, 2 * Math.PI, false);
+  ctx.arc(x+20, y-5, 5, 0, 2 * Math.PI, false);
   ctx.fillStyle = 'green';
   ctx.fill();
-  ctx.lineWidth = 5;
-  ctx.strokeStyle = '#003300';
-  ctx.stroke();
 }
 
 // ============== Draw enemy ==============
